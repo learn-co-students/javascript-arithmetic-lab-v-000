@@ -27,12 +27,21 @@ function dec(n) {
 }
 
 function makeInt(n){
+  if (n) {
+parseInt(“n”, 10)
+return n
+} else if (n = string) {
+return "NaN"
+} else if (‘0 * n’) {
+return 0
+}
+}
+
+function preserveDecimal(n) {
   if (n){
-  parseInt("n", 10)
+  parseFloat("n")
   return n
 } else if (n = string) {
   return "NaN"
-} else if ('0 * n') {
-  return 0
 }
 }
